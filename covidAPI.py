@@ -42,8 +42,8 @@ ax1.plot(dates[-1],deaths[-1],marker='o',color='k')
 ax1.plot(dates[-1],cases100k7[-1],marker='o',color='b')
 
 #formatting the graph
-today=dt.date.today().strftime("%d %m %Y")
-ax1.set_title('Covid Erlangen {}'.format(today))
+today=dt.date.today().strftime("%d.%m.%Y")
+ax1.set_title('Covid Erlangen {} (inzidenz = {:.0f})'.format(today,cases100k7[-1]))
 ax1.grid(which='both')
 ax1.legend()
 # ax2.set_ylabel('total cases',color='saddlebrown')
