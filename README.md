@@ -1,4 +1,4 @@
-### Since the website has chenged the web scraper is not working anymore, the data are now available in the coronawarn app
+### Since the Erlangen council is not displaying the data on their website anymore, the web scraper is not working anymore, the data are now available in the coronawarn app.
 # covid Erlangen API
 
 This script takes the data from the same API as the Erlangen website and dysplay hystorical data about covid in the Erlangen council.
